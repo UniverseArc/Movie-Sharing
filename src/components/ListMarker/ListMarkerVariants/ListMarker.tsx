@@ -13,7 +13,7 @@ const ListMarker: FC<IListMaker> = ({ variant }) => {
                 variant === ListMarkerVariant.fullfiledRed ? s.red : "",
                 variant === ListMarkerVariant.outlinedRed ? s.outlinedRed : "",
             )
-        } />
+        }></div>
     )
 }
 
