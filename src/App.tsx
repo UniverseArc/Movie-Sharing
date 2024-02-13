@@ -1,14 +1,14 @@
 import './App.css'
-import TimeBar from './components/TimeBar/TimeBarVariants/TimeBar'
-import { TimeBarsVariant } from './components/TimeBar/TimeBarVariants/types/TimeBars.types'
+import DatePicker from './components/DatePicker/DatePickerVariants/DatePicker'
+import { DatePickerVariant } from './components/DatePicker/DatePickerVariants/types/DatePicker.types'
 
 function App() {
 
   return (
     <div>
-      <TimeBar variant={TimeBarsVariant.primary} time={{hours: 13, minutes: 15}}/>
-      <TimeBar variant={TimeBarsVariant.fullfiledRed} time={{hours: 13, minutes: 15}}/>
-      <TimeBar variant={TimeBarsVariant.outlinedRed} time={{hours: 13, minutes: 15}}/>
+        <DatePicker variant={DatePickerVariant.primary} date={24}/>
+        <DatePicker variant={DatePickerVariant.outlinedRed} date={24}/>
+        <DatePicker variant={DatePickerVariant.fullfiledRed} date={24}/>
     </div>
   )
 }
