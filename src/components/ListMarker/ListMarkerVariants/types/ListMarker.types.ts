@@ -5,14 +5,6 @@ export enum ListMarkerVariant {
 }
 
 
-export interface IListMakerGray {
-    variant: ListMarkerVariant.primary
-}
-
-export interface IListMakerRed {
-    variant: ListMarkerVariant.fullfiledRed
-}
-
-export interface IListMakerRedOutlined {
-    variant: ListMarkerVariant.outlinedRed
+export interface IListMaker {
+    variant: ListMarkerVariant
 }

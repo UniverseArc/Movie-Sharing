@@ -4,8 +4,16 @@
     border-radius: 50px; 
 }
 
-.listMakerOutlined{
+.gray{
+    background-color: #A4A4A4;
+}
+
+.red{
+    background-color: #8D090D;
+}
+
+.outlinedRed{
     width: 13.4px;
     height: 13.4px;
-    border-radius: 50px; 
+    border: 1px solid #8D090D; 
 }
