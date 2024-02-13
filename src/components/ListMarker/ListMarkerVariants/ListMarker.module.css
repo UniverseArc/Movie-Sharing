@@ -1,0 +1,11 @@
+.listMaker{
+    width: 15px;
+    height: 15px;
+    border-radius: 50px; 
+}
+
+.listMakerOutlined{
+    width: 13.4px;
+    height: 13.4px;
+    border-radius: 50px; 
+}
