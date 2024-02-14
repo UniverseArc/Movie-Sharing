@@ -6,9 +6,8 @@ function App() {
 
   return (
     <div>
-        <DatePicker variant={DatePickerVariant.primary} date={24}/>
-        <DatePicker variant={DatePickerVariant.outlinedRed} date={24}/>
-        <DatePicker variant={DatePickerVariant.fullfiledRed} date={24}/>
+        <DatePicker variant={DatePickerVariant.primaryPicked} date={24}/>
+        <DatePicker variant={DatePickerVariant.redPicked} date={24}/>
     </div>
   )
 }

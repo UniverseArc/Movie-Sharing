@@ -1,7 +1,6 @@
 export enum DatePickerVariant {
-    primary = "primary",
-    outlinedRed = "outlinedRed",
-    fullfiledRed = "fullfiledRed"
+    primaryPicked = "primaryPicked",
+    redPicked = "redPicked",
 }
 
 

@@ -1,22 +1,57 @@
 .timeBarButton{
     width: 40px;
-    height: 55px;
+    height: 60px;
     border-radius: 20px;
     font-size: 17px;
     color: white;
+    position: relative;
 }
 
 .red {
     background-color: #8D090D;
     border: #8D090D;
-}
+    justify-content: center;
+    align-items: center;
+    display: flex; /* Добавляем flex-контейнер для центрирования содержимого */
+  }
+  
+  .red::before {
+    content: attr(data-date);
+    color: black;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 50%; /* Делаем круглым */
+    width: 30px; /* Задаем размеры */
+    height: 30px;
+    display: flex; /* Добавляем flex-контейнер для центрирования содержимого */
+    justify-content: center; /* Центрируем содержимое по горизонтали */
+    align-items: center; /* Центрируем содержимое по вертикали */
+    position: absolute; /* Позиционируем абсолютно */
+    top: 50%; /* Размещаем на середине вертикально */
+    left: 50%; /* Размещаем на середине горизонтально */
+    transform: translate(-50%, -50%); /* Центрируем относительно центра */
+  }
 
 .gray {
     background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex; /* Добавляем flex-контейнер для центрирования содержимого */
 }
 
-.redOutlined {
+.gray::before {
+    content: attr(data-date);
+    color: black;
+    font-size: 15px;
     background-color: white;
-    color: #7d7b7b;
-    border: 1px solid #8D090D;
-}
+    border-radius: 50%; 
+    width: 30px; 
+    height: 30px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+  }

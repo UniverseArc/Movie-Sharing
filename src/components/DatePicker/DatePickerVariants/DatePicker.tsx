@@ -10,11 +10,10 @@ const DatePicker: FC<ITimeBarProps> = ({ variant, date }) => {
         <button className={
             clsx(
                 s.timeBarButton, 
-                variant === DatePickerVariant.primary ? s.gray : "", 
-                variant === DatePickerVariant.fullfiledRed ? s.red : "",
-                variant === DatePickerVariant.outlinedRed ? s.redOutlined : ""
+                variant === DatePickerVariant.primaryPicked ? s.gray : "", 
+                variant === DatePickerVariant.redPicked ? s.red : "",
             )
-        }>{date}</button>
+        } data-date={date}></button>
     )
 }
 
