@@ -1,0 +1,10 @@
+.backgroundColorPurchase{
+    background-color: #8D090D;
+    color: white;
+    font-size: 20px;
+    min-width: 250px;
+    min-height: 50px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
