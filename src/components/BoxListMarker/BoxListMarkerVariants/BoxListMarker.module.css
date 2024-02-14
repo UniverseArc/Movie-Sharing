@@ -1,0 +1,32 @@
+.listMaker{
+    width: 15px;
+    height: 15px;
+    border-radius: 4px; 
+}
+
+.gray{
+    background-color: #D0D0D0;
+}
+
+.greenInGray{
+    position: relative;
+    background-color: #D0D0D0;
+}
+
+.greenInGray::before{
+    content: "";
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 10px; 
+    height: 10px;
+    background-color: #2BA637;
+    border-radius: 3px;
+}
+
+.outlinedGreen{
+    width: 13px;
+    height: 13px;
+    border: 1px solid #2BA637; 
+}
