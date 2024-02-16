@@ -1,0 +1,12 @@
+.myInput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 16px; /* Убрать */
+    height: 40px; /* Подумать о целесообразности */
+    width: 470px; /* Подумать о целесообразности */
+    outline-width: 0;
+    padding-left: 16px;
+    border-radius: 5px;
+    border: 1px solid #CFCFCF;
+}
