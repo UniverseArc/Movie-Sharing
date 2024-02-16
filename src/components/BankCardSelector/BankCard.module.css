@@ -1,0 +1,50 @@
+.bankCardSelectorWrapper{
+    padding-top: 25px; /*Убрать*/
+    padding-left: 25px; /*Убрать*/
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.selectListWrapper{
+    position: relative;
+}
+
+.kingSelectItemWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 470px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+.kingSelectItemText{
+    padding-left: 13px;
+}
+
+.kingSelectItemSvg{
+    padding-right: 13px;
+}
+
+.commonItemsWrapper{
+    position: absolute;
+    width: 100%;
+    background-color: white;
+}
+
+.commonItemInSelector{
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-bottom: 8px;
+    border: 1px solid black;
+    border-bottom: none;
+}
+
+.commonItemInSelector:first-child{
+    border-top: none;
+}
+
+.commonItemInSelector:last-child{
+    border-bottom: 1px solid black;
+}
