@@ -1,5 +1,5 @@
 
-import React, { FC } from 'react'
+import { FC} from 'react'
 import s from "./Header.module.css"
 import logoImg from "./pics/NizamiLogo.png"
 import { ClientSvg } from './ClientSvg/ClientSvg';
