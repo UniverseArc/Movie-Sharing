@@ -1,0 +1,19 @@
+.headerWrapper{
+    width: 100vw;
+    height: 170px; /* Потенциально плохое решение */
+    background: linear-gradient(black, white);
+}
+
+.headerElementsWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-left: 65px;
+    padding-right: 130px;
+}
+
+.headerClientButton{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
