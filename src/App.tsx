@@ -1,11 +1,11 @@
 import './App.css'
-import { MyInput } from './components/MyInput/MyInput'
+import { BankCardInput } from './components/BankCardInput/BankCardInput'
 
 function App() {
 
   return (
     <div>
-        <MyInput whichName='' whichType='' whichwidth=''/>
+        <BankCardInput />
     </div>
   )
 }
