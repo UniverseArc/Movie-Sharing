@@ -6,5 +6,4 @@ export enum EApplyButtonStyles {
 
 export interface IApplyButton {
     buttonStyle: EApplyButtonStyles
-    buttonText: string
 }
